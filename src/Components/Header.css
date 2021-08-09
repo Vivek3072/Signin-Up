@@ -1,0 +1,112 @@
+.box2 {
+  height: 0.7vh;
+  background-color: rgb(65, 106, 243);
+  padding: 0;
+  animation: box2 3s ease-in-out 0.5s 1;
+}
+
+@keyframes box2 {
+  0% {
+    width: 0;
+  }
+  60% {
+    width: 60vw;
+  }
+  80% {
+    width: 80vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+
+.bi {
+  position: relative;
+  left: 92.5vw;
+  top: -10vh;
+}
+
+header {
+  background-color: rgba(236, 236, 236, 0.568);
+  /* display: inline-block; */
+  width: 100vw;
+  height: 8vh;
+  margin: 0.2vw;
+}
+li {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 13px;
+  font-size: 20px;
+}
+.box {
+  width: 85%;
+  border: 1px dashed rgb(202, 202, 202);
+  padding: 4vh 2.5vw 2vh 4vw;
+  border-radius: 5px;
+  position: relative;
+  left: 7vw;
+  box-shadow: 5px 5px 5px 5px rgba(214, 214, 219, 0.288);
+}
+form {
+  display: flexbox;
+  margin: 0px 15px;
+  width: 40vw;
+  padding: 15px 5.5vw;
+  position: center;
+  background: rgba(236, 236, 236, 0.568);
+  margin: 2vh 0px 0px 4vh;
+  position: relative;
+  box-shadow: 5px 5px 5px 5px rgba(206, 206, 207, 0.295);
+}
+.Faaram {
+  position: relative;
+  left: 2vw;
+}
+
+#mypic {
+  position: relative;
+  top: -240px;
+  left: 50vw;
+}
+
+form .btn-primary {
+  background-color: rgb(55, 103, 204);
+  position: relative;
+  margin: 0px 11vw;
+  /* left: 10vw; */
+}
+.photo {
+  display: inline-block;
+  width: 21vw;
+  position: relative;
+  top: 0px;
+}
+
+.newuser {
+  /* position: absolute;
+  left: 18vw;
+  top: 70vh; */
+  margin: -25vh 18vw 8vh 31vw;
+}
+
+.btn-outline-secondary{
+  position: relative;
+  left: 31vw;
+  top: -34vh;
+
+}
+.footer {
+  background-color: rgb(54, 52, 52);
+  height: 10vh;
+  padding: 3vh;
+  position: relative;
+  top: 25vh;
+}
+.footertext {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+}
